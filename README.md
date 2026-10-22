@@ -29,7 +29,7 @@ Potreban je [Docker](https://www.docker.com/) sa Docker Composeom.
 
 1. Kloniraj repo:
 ```
-   git clone [https://github.com/denissofovic/aot-computers-webshop.git](https://github.com/denissofovic/legacy-php-webshop)
+   git clone https://github.com/denissofovic/legacy-php-webshop
    cd legacy-php-webshop
 ```
 
