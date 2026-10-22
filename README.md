@@ -41,10 +41,7 @@ Potreban je [Docker](https://www.docker.com/) sa Docker Composeom.
 3. Uredi `include/config.php`:
    - **Baza:** zadane vrijednosti već odgovaraju `docker-compose.yml`
      (`DB_HOST = 'db'`, korisnik `root`, lozinka `root`, baza `trgovina`).
-   - **Admin:** generiši hash lozinke i zalijepi ga u `ADMIN_PASS_HASH`:
-```
-     docker compose run --rm web php -r "echo password_hash('tvoja_lozinka', PASSWORD_DEFAULT);"
-```
+   
    - **Mejl:** upiši `MAIL_USER` i `MAIL_PASS`. Gmail traži
      [App Password](https://myaccount.google.com/apppasswords)
      (mora biti uključena 2-Step Verification), a ne običnu lozinku naloga.
