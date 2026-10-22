@@ -1,0 +1,24 @@
+.modal-content{
+  background-color: #fff;
+}
+
+.modal-title{
+  color:	#000;
+}
+
+.modal-body{
+  color:	#000;
+}
+
+.btn.btn-primary{
+  background-color:#000;
+  border-color: #fff;
+}
+
+.close{
+  color: #fff;
+}
+
+input{
+  color:#000;
+}

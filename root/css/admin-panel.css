@@ -1,0 +1,42 @@
+.user-table {
+border-collapse: collapse;
+border-spacing: 0;
+width: 75%;
+border: 1px solid #ddd;
+margin-bottom: 2cm;
+
+
+}
+.stats-container{
+  display:inline-block;
+}
+
+#tableHeader,#tableData {
+text-align: center;
+padding: 14px;
+padding-left: 1cm;
+}
+
+.adminButton{
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size: 14px;
+  color: red;
+}
+
+
+tr:nth-child(even) {
+background-color: #f2f2f2
+}
+
+.fa-check {
+color: green;
+}
+
+.fa-remove {
+color: red;
+}

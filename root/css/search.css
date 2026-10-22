@@ -1,0 +1,81 @@
+
+#name {
+    color: #696969;
+  }
+
+  .search-box {
+    float: left;
+    width: 250px;
+    height: 376px;
+    margin: 2%;
+    border: 1.5px solid lightgray;
+    background-color: #fff;
+    margin-top: 2.2%;
+    position: relative;
+    margin-bottom: 0.8cm;
+    -webkit-box-shadow: inset 0px 2px 6px -3px rgba(133, 133, 133, 0.7);
+    -moz-box-shadow: inset 0px 2px 6px -3px rgba(133, 133, 133, 0.7);
+    box-shadow: inset 0px 2px 6px -3px rgba(133, 133, 133, 0.7);
+  }
+
+  #hoverbar {
+    position: absolute;
+    height: 64px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.7);
+    visibility: hidden;
+    margin-top: 150px;
+    padding: 0.5cm;
+    justify-content: space-around;
+  }
+
+
+  .search-box:hover>#hoverbar {
+    visibility: visible;
+  }
+
+  .search-container {
+    margin: 1.4cm;
+    display: inline-block;
+    align-self: stretch;
+    border: 1px lightgray solid;
+    margin-top: -0.2cm;
+    width: 1250;
+    border-top: 0;
+    border-bottom: 0;
+    -webkit-box-shadow: inset 0px 2px 6px -2px rgba(133, 133, 133, 0.67);
+    -moz-box-shadow: inset 0px 2px 6px -2px rgba(133, 133, 133, 0.67);
+    box-shadow: inset 0px 2px 6px -2px rgba(133, 133, 133, 0.67);
+  }
+
+  #idInput {
+    text-align: center;
+    width: 30px;
+    border-style: none;
+    background-color: #fff;
+    color: gray;
+    font-size: 14px;
+  }
+
+  #cartButton {
+    background-color: #fff;
+    border-top: 1px solid lightgray;
+    border-left: 0px;
+    border-right: 0px;
+    width: 247.5px;
+    color: gray;
+    border-radius: 0;
+  }
+
+  #cartButton:hover {
+    background-color: black;
+    color: #fff;
+  }
+
+  #separator {
+    height: 0.5px;
+    color: #fff;
+    background-color: gray;
+    border: none;
+    width: 50%;
+  }

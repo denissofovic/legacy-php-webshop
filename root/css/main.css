@@ -1,0 +1,41 @@
+body{
+    background-color: #fff;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar.navbar-default{
+    z-index: 1;
+    font-size:16px;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 80px;
+  }
+
+  .jumbotron{
+    background-color: 	#25282a;
+    color:	#936d02;
+    border-top: 2px #936d02 solid;
+    border-bottom: 2px #936d02 solid;
+  }
+
+  .stats-container {
+    margin: 1.4cm;
+    display: inline-block;
+    align-self: stretch;
+    border: 1px lightgray solid;
+    margin-top: -0.25cm;
+    width: 1250;
+    border-top: 0;
+    border-bottom: 0;
+    -webkit-box-shadow: inset 0px 2px 6px -2px rgba(133, 133, 133, 0.67);
+    -moz-box-shadow: inset 0px 2px 6px -2px rgba(133, 133, 133, 0.67);
+    box-shadow: inset 0px 2px 6px -2px rgba(133, 133, 133, 0.67);
+  }
+
+  @media (max-width: 1281px) {
+    body{
+      display: none;
+    }
+  }

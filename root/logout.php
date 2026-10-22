@@ -1,0 +1,13 @@
+<?php
+session_start();
+session_destroy();
+unset($_SESSION['username']);
+sleep(1.5);
+header('location:index.php');
+if(isset($_COOKIE['member_login'])){
+  setcookie('member_login','');
+}
+if(isset($_COOKIE['member_password'])){
+  setcookie('member_password','');
+};
+?>
