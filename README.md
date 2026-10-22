@@ -29,13 +29,13 @@ Potreban je [Docker](https://www.docker.com/) sa Docker Composeom.
 
 1. Kloniraj repo:
 ```
-   git clone https://github.com/denissofovic/aot-computers-webshop.git
-   cd aot-computers-webshop
+   git clone [https://github.com/denissofovic/aot-computers-webshop.git](https://github.com/denissofovic/legacy-php-webshop)
+   cd legacy-php-webshop
 ```
 
 2. Napravi svoj config fajl iz predloška:
 ```
-   cp include/config.example.php include/config.php
+   include/config.php
 ```
 
 3. Uredi `include/config.php`:
@@ -70,4 +70,3 @@ Baza se pri prvom pokretanju sama napravi i napuni iz `db/init.sql`.
 
 - Na Apple Silicon računarima PHP 5.6 image radi kroz emulaciju
   (`platform: linux/amd64`), pa može biti malo sporiji.
-- `include/config.php` je u `.gitignore`. Nikad ne commituj prave lozinke.
